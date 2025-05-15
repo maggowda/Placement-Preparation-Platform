@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Herosec from './Components/Navbar/Herosec/Herosec'
+import LandingPage from './Components/Navbar/LandingPage/Landingpage'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <>
       <Navbar/>
       <Herosec/>
+      <LandingPage/>
     </>
   )
 }
